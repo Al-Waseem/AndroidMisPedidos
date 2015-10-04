@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/linea_item_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_shopping_basket_black_24dp"
+        android:scaleType="center"/>
+
+    <TextView
+        android:id="@+id/linea_item_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/my_primary_text"
+        android:layout_toRightOf="@id/linea_item_img"
+        android:layout_marginLeft="10dp"
+        android:text="Silla de madera" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/linea_item_img"
+        android:layout_below="@id/linea_item_producto">
+
+        <TextView
+            android:id="@+id/linea_item_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_weight="1"
+            android:textColor="@color/my_primary_text"  android:text="250 Euros"/>
+
+        <TextView
+            android:id="@+id/linea_item_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_weight="1"
+            android:textColor="@color/my_primary_text"
+            android:text="10% Desc."/>
+
+        <TextView
+            android:id="@+id/linea_item_cantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:textColor="@color/my_secondary_text"
+            android:text="2 und" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@color/my_divider">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/my_white"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="2dp">
+
+            <ImageView
+                android:id="@+id/dp_img_codigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/ic_local_offer_black_24dp"/>
+
+            <TextView
+                android:id="@+id/dp_lbl_codigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_toRightOf="@+id/dp_img_codigo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/my_primary_text"
+                android:text="@string/dp_codigo"/>
+
+            <TextView
+                android:id="@+id/dp_codigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dp_lbl_codigo"
+                android:layout_toRightOf="@id/dp_img_codigo"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/my_secondary_text"
+                android:text=""/>
+
+        </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/my_white"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:paddingLeft="10dp"
+           android:layout_marginBottom="2dp">
+
+           <ImageView
+               android:id="@+id/dp_img_nombre"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="15dp"
+               android:layout_alignParentLeft="true"
+               android:src="@drawable/ic_business_black_24dp"/>
+
+           <TextView
+               android:id="@+id/dp_lbl_nombre"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="5dp"
+               android:layout_toRightOf="@+id/dp_img_nombre"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:textColor="@color/my_primary_text"
+               android:text="@string/dp_empresa"/>
+
+           <TextView
+               android:id="@+id/dp_nombre"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/dp_lbl_nombre"
+               android:layout_toRightOf="@id/dp_img_nombre"
+               android:padding="5dp"
+               android:layout_marginLeft="5dp"
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:textColor="@color/my_secondary_text"
+               android:text=""/>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/my_white"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:paddingLeft="10dp"
+           android:layout_marginBottom="2dp">
+
+           <ImageView
+               android:id="@+id/dp_img_entrega"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="15dp"
+               android:layout_alignParentLeft="true"
+               android:src="@drawable/ic_today_black_24dp"/>
+
+           <TextView
+               android:id="@+id/dp_lbl_entrega"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="5dp"
+               android:layout_toRightOf="@+id/dp_img_entrega"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:textColor="@color/my_special_text"
+               android:text="@string/dp_fecha"/>
+
+           <TextView
+               android:id="@+id/dp_entrega"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/dp_lbl_entrega"
+               android:layout_toRightOf="@id/dp_img_entrega"
+               android:padding="5dp"
+               android:layout_marginLeft="5dp"
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:textColor="@color/my_secondary_text"
+               android:text=""/>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/my_white"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:paddingLeft="10dp"
+           android:layout_marginBottom="2dp">
+
+           <ImageView
+               android:id="@+id/dp_img_contacto"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="15dp"
+               android:layout_alignParentLeft="true"
+               android:src="@drawable/ic_person_black_24dp"/>
+
+           <TextView
+               android:id="@+id/dp_lbl_contacto"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="5dp"
+               android:layout_toRightOf="@+id/dp_img_contacto"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:textColor="@color/my_primary_text"
+               android:text="@string/dp_nombre"/>
+
+           <TextView
+               android:id="@+id/dp_contacto"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/dp_lbl_contacto"
+               android:layout_toRightOf="@id/dp_img_contacto"
+               android:padding="5dp"
+               android:layout_marginLeft="5dp"
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:textColor="@color/my_secondary_text"
+               android:text=""/>
+
+
+
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/my_white"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:paddingLeft="10dp"
+           android:layout_marginBottom="2dp">
+
+           <ImageView
+               android:id="@+id/dp_img_email"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="15dp"
+               android:layout_alignParentLeft="true"
+               android:src="@drawable/ic_email_black_24dp"/>
+
+           <TextView
+               android:id="@+id/dp_lbl_email"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="5dp"
+               android:layout_toRightOf="@+id/dp_img_email"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:textColor="@color/my_primary_text"
+               android:text="@string/dp_email"/>
+
+           <TextView
+               android:id="@+id/dp_email"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/dp_lbl_email"
+               android:layout_toRightOf="@id/dp_img_email"
+               android:padding="5dp"
+               android:layout_marginLeft="5dp"
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:textColor="@color/my_secondary_text"
+               android:text=""/>
+
+           <Button
+               android:id="@+id/dp_boton_mail"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="5dp"
+               android:text="@string/dp_enviar"
+               style="?android:attr/borderlessButtonStyle"
+               android:textColor="@color/my_special_text"/>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/my_white"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:paddingLeft="10dp"
+           android:layout_marginBottom="2dp">
+
+           <ImageView
+               android:id="@+id/dp_img_telef"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="15dp"
+               android:layout_alignParentLeft="true"
+               android:src="@drawable/ic_phone_black_24dp"/>
+
+           <TextView
+               android:id="@+id/dp_lbl_telef"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="5dp"
+               android:layout_toRightOf="@+id/dp_img_telef"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:textColor="@color/my_primary_text"
+               android:text="@string/dp_telefono"/>
+
+           <TextView
+               android:id="@+id/dp_telef"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/dp_lbl_telef"
+               android:layout_toRightOf="@id/dp_img_telef"
+               android:padding="5dp"
+               android:layout_marginLeft="5dp"
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:textColor="@color/my_secondary_text"
+               android:text=""/>
+
+           <Button
+               android:id="@+id/dp_boton_telf"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="5dp"
+               android:text="@string/dp_llamar"
+               style="?android:attr/borderlessButtonStyle"
+               android:textColor="@color/my_special_text"/>
+
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/my_white"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:paddingLeft="10dp"
+           android:layout_marginBottom="2dp">
+
+           <ImageView
+               android:id="@+id/dp_img_dir"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="15dp"
+               android:layout_alignParentLeft="true"
+               android:src="@drawable/ic_markunread_mailbox_black_24dp"/>
+
+           <TextView
+               android:id="@+id/dp_lbl_dir"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="5dp"
+               android:layout_toRightOf="@+id/dp_img_dir"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:textColor="@color/my_primary_text"
+               android:text="@string/dp_direccion"/>
+
+           <TextView
+               android:id="@+id/dp_dir"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/dp_lbl_dir"
+               android:layout_toRightOf="@id/dp_img_dir"
+               android:padding="5dp"
+               android:layout_marginLeft="5dp"
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:textColor="@color/my_secondary_text"
+               android:text=""/>
+
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="10dp"
+           android:background="@color/my_white"
+           android:gravity="right">
+
+           <Button
+               android:id="@+id/dp_boton_borrar"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/dp_borrar"
+               style="?android:attr/borderlessButtonStyle"
+               android:textColor="@color/my_special_text"/>
+
+           <Button
+               android:id="@+id/dp_boton_guardar"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/dp_guardar"
+               style="?android:attr/borderlessButtonStyle"
+               android:background="@color/my_special_text"
+               android:textColor="@color/my_white"/>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</ScrollView>

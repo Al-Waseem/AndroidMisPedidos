@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/my_divider"
+    android:paddingBottom="2dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/my_white"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/pedido_item_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_local_shipping_black_24dp"
+        android:scaleType="center"/>
+
+    <TextView
+        android:id="@+id/pedido_item_empresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/my_primary_text"
+        android:layout_toRightOf="@id/pedido_item_img"
+        android:layout_marginLeft="10dp"
+        android:text="Sillas Silla SL" />
+
+    <TextView
+        android:id="@+id/pedido_item_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/my_primary_text"
+        android:layout_toRightOf="@id/pedido_item_img"
+        android:layout_below="@id/pedido_item_empresa"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="250 Euros"/>
+
+    <TextView
+        android:id="@+id/pedido_item_entrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/my_secondary_text"
+        android:layout_below="@+id/pedido_item_empresa"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:text="18-10-2015" />
+
+
+</RelativeLayout>
+
+</LinearLayout>

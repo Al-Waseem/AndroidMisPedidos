@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#CC000000</color>
+
+    <!--
+    <color name="my_primary">#009688</color>
+    <color name="my_primary_dark">#00796B</color>
+    <color name="my_primary_light">#B2DFDB</color>
+    -->
+
+    <!--
+    <color name="my_primary">#ff9800</color>
+    <color name="my_primary_dark">#f57c00</color>
+    <color name="my_primary_light">#ffcc80</color>
+    -->
+
+    <color name="my_primary">#3F51B5</color>
+    <color name="my_primary_dark">#303F9F</color>
+    <color name="my_primary_light">#7986CB</color>
+
+    <color name="my_accent">#9E9E9E</color>
+    <!--
+    <color name="my_primary_text">#212121</color>
+    <color name="my_secondary_text">#727272</color>
+    -->
+
+    <color name="my_primary_text">#727272</color>
+    <color name="my_secondary_text">#B6B6B6</color>
+
+    <color name="my_icons">#FFFFFF</color>
+    <color name="my_divider">#E0E0E0</color>
+
+
+    <color name="my_special_text">#20A296</color>
+    <color name="my_float_button">#42A5F5</color>
+
+    <color name="pedido_on">#98cb4a</color>
+    <color name="pedido_off">#f76d3c</color>
+
+    <color name="my_white">#f9f9f9</color>
+</resources>

@@ -1,0 +1,17 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_cabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/my_primary_light"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/my_white"
+        android:text="Hola"/>
+
+</LinearLayout>

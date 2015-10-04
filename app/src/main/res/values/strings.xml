@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">MisPedidos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- GENERAL -->
+    <string name="info">Información</string>
+    <string name="alerta">Alerta</string>
+    <string name="error">Error</string>
+    <string name="confirm">Confirmar</string>
+    <string name="dialog_btn_yes">Continuar</string>
+    <string name="dialog_btn_no">Cancelar</string>
+    <string name="dialog_btn_neutral">Aceptar</string>
+    <string name="espere">Espere</string>
+    <string name="enviar">Enviar</string>
+
+
+    <!--MAIN-->
+    <string name="m_num_cliente">Nº Clientes:</string>
+    <string name="m_num_producto">Nº Productos:</string>
+    <string name="m_ventas">Ventas por mes:</string>
+
+    <!-- SEARC-->
+    <string name="search_hint">Introduce tu búsqueda</string>
+
+    <!--SERVICE-->
+    <string name="nuevo_recurso">Hay un nuevo recurso listo para sincronizar</string>
+
+    <!-- NAVIGATION DRAWER -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_pedido">Pedidos</string>
+    <string name="nav_cuenta">Cuenta de Drive</string>
+    <string name="nav_sync">Sincronizar</string>
+    <string name="nav_info">Acerca de MisPedidos</string>
+
+    <!-- INFO -->
+    <string name="title_activity_info">Acerca de MisPedidos</string>
+    <string name="info_email">vicchiam81@gmail.com</string>
+    <string name="info_descripcion">Aplicación para la gestión de pedidos a través de Google Drive, creada por Victor M Chisvert Amat</string>
+
+    <!-- CUENTA -->
+    <string name="title_activity_account">Cuenta de Drive</string>
+    <string name="nombre_cuenta">Cuenta:</string>
+    <string name="sin_nombre_cuenta">Sin cuenta</string>
+    <string name="borrar_cuenta">Borrar cuenta</string>
+    <string name="comprobando_cuenta">Comprobando acceso a cuenta...</string>
+    <string name="quitar_acceso_cuenta">¿Seguro que quieres quitar el acceso a la cuenta %1$s?</string>
+    <string name="sin_acceso_carpeta">No se tiene acceso a la carpeta AppPedidos, intentelo más tarde</string>
+    <string name="cuenta_agregada">Cuenta de Google Drive agregada correctamente</string>
+
+    <!-- SYNC -->
+    <string name="sincronizando">Sincronizando</string>
+    <string name="sincro_completada">Sincronización completada</string>
+    <string name="hacer_sincro">¿Seguro que quieres sincronizar los datos?</string>
+    <string name="agregar_cuenta_drive">Debes de agregar una cuenta de Google Drive</string>
+
+    <!-- PEDIDOS -->
+    <string name="title_activity_pedidos">Pedidos</string>
+
+    <!-- DETALLES -->
+    <string name="title_activity_detalle">Detalle</string>
+    <string name="page1">Pedido</string>
+    <string name="page2">Lineas</string>
+
+    <!-- DETALLE PEDIDO -->
+    <string name="dp_codigo">Código:</string>
+    <string name="dp_cif">CIF:</string>
+    <string name="dp_fecha">Fecha Entrega:</string>
+    <string name="dp_empresa">Razón Social:</string>
+    <string name="dp_nombre">Contacto:</string>
+    <string name="dp_email">Correo electrónico:</string>
+    <string name="dp_telefono">Telefono:</string>
+    <string name="dp_direccion">Dirección:</string>
+    <string name="dp_guardar">Guardar</string>
+    <string name="dp_borrar">Borrar</string>
+    <string name="dp_search_hint">Buscar Cliente</string>
+    <string name="dp_borrar_pedido">¿Seguro que deseas eliminar el pedido?</string>
+    <string name="dp_enviar">Enviar</string>
+    <string name="dp_llamar">Llamar</string>
+
+    <!-- DETALLE LINEA -->
+    <string name="title_activity_linea">Detalle Linea</string>
+    <string name="dl_search_hint">Buscar Producto</string>
+    <string name="dl_codigo">Código:</string>
+    <string name="dl_familia">Familia:</string>
+    <string name="dl_producto">Producto:</string>
+    <string name="dl_und">Unidad:</string>
+    <string name="dl_descuento">% Desc:</string>
+    <string name="dl_precio">Precio Und:</string>
+    <string name="dl_descripcion">Descripción:</string>
+    <string name="dl_cantidad">Cantidad</string>
+    <string name="dl_iva">% IVA</string>
+    <string name="dl_total">Total:</string>
+    <string name="dl_borrar_linea">¿Seguro que deseas eliminar la linea?</string>
+
+
+    <!-- ERRORES -->
+    <string name="error_conectar_cuenta">Error al intentar conectar con la cuenta %1$s</string>
+    <string name="error_gplay">Google Play Services no esta instalado o no es válido</string>
+    <string name="error_red">No hay conexión a Internet</string>
+    <string name="error_producto">Debes indicar un producto</string>
+    <string name="error_linea">Debes indicar una cantidad, descuento e iva</string>
+    <string name="error_cantidad">La catidad debe ser mayor que 0</string>
+    <string name="error_cliente">Debes indicar el cliente</string>
+    <string name="error_sin_linea">Debes indicar almenos un producto</string>
+    <string name="error_fecha">Debes indicar una fecha de entrega</string>
+    <string name="error_actualizar">Error al actualizar</string>
+    <string name="error_mail">Error no se ha podido enviar el pedido</string>
+    <string name="error_tabla">Debes sincronizar por primera vez</string>
+
+
+
+    <string-array name="array_iva">
+        <item>21%</item>
+        <item>10%</item>
+    </string-array>
+
+
+
+
+
+</resources>
