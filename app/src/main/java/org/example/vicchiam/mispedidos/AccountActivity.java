@@ -129,6 +129,8 @@ public class AccountActivity extends AppCompatActivity{
             startActivityForResult(MyDrive.credencial.newChooseAccountIntent(), SOLICITUD_SELECCION_CUENTA);
         }
         else{
+            MyDrive.credencial.setSelectedAccountName(MyDrive.email);
+
             text+=" "+MyDrive.email;
             textAccount.setText(text);
 

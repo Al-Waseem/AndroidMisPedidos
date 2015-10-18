@@ -7,6 +7,7 @@ import android.util.Log;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
+import com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException;
 import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpResponse;
 import com.google.api.services.drive.Drive;
@@ -65,8 +66,11 @@ public final class MyDrive {
             request = MyDrive.servicio.files().list();
             request.setQ("title='" + MyDrive.DRIVE_FOLDER + "' and mimeType='application/vnd.google-apps.folder'");
             FileList files = request.execute();
+            Log.e("REQUEST", request.toString());
             lista.addAll(files.getItems());
             request.setPageToken(files.getNextPageToken());
+        } catch (UserRecoverableAuthIOException e) {
+            activity.startActivityForResult(e.getIntent(), 1);
         }catch (IOException e){
             e.printStackTrace();
             request.setPageToken(null);
